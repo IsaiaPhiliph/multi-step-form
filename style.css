@@ -14,30 +14,13 @@
     --bgColor: #333;
     --inputBorderColor: lightgray;
 }
-@media (max-width: 660px) {
-    :root {
-        --containerWidth: 400px;
-    }
-    .progress-bar .step p {
-        display: none;
-    }
-    .progress-bar .step .bullet::after,
-    .progress-bar .step .bullet::before {
-        display: none;
-    }
-    .progress-bar .step .bullet {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
 
 body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
     background: var(--bgColor);
 }
 ::selection {
@@ -215,7 +198,7 @@ form .page .btns button.next {
     color: #fff;
 }
 
-@media (max-width: 660px) {
+@media screen and (max-width: 660px) {
     :root {
         --containerWidth: 400px;
     }
@@ -245,8 +228,12 @@ form .page .btns button.next {
         justify-content: center;
     }
 }
-@media (max-width: 490px) {
+@media screen and (max-width: 490px) {
     :root {
-        --containerWidth: 70vw;
+        --containerWidth: 100%;
+    }
+    .container {
+        box-sizing: border-box;
+        border-radius: 0;
     }
 }
