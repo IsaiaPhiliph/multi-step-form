@@ -2,7 +2,7 @@
 
 Responsive multi-step form, I took it from https://codingnepalweb.com/multi-step-form-html-css-javascript/ and modified it so it can be responsive and adapt to any number of steps desired.
 
-![Showcase image 1](img/showcase.png?raw=true "Showcase 1")
+![Showcase image 1](img/showcase1.png?raw=true "Showcase 1")
 
 # How to use
 
